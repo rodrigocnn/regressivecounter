@@ -1,1 +1,1 @@
-This is a regressive count.
+This is a regressive counter.
