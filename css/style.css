@@ -1,0 +1,49 @@
+* { Box-sizing: Border-box } 
+
+body,  html{
+    height: 100%;
+}
+body{
+ background-image: url('../img/bg.jpg');
+ background-size: cover;
+ background-origin: center;
+}
+
+.container{
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#wrap-count{
+    width: 100%;
+    min-height: 300px;
+    margin: 0 auto;
+    background-color: #333;
+    opacity : 0.7;
+    position: relative;
+    top: 30%; 
+    padding: 40px 20px 20px 20px;
+}
+
+#launch, .text-launch{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.count {
+    max-width: 40%;
+    margin: 40px auto;
+}
+
+.wrap-count-regressive{
+ 
+    float: left;
+    padding: 10px;
+    color: #333;
+    background-color: #fff;
+    font-size: 70px;
+    margin-right: 10px;
+}
